@@ -31,4 +31,10 @@ fun FormSiswa(
                 )
             )
         }
-    )
+    ){ paddingValues ->
+
+        Column(
+            modifier = Modifier.padding(paddingValues),
+            verticalArrangement = Arrangement.SpaceBetween,
+            horizontalAlignment = Alignment.CenterHorizontally
+        )

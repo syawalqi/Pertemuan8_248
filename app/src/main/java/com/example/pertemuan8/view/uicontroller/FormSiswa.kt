@@ -17,15 +17,6 @@ fun FormSiswa(
     modifier: Modifier = Modifier
 ){
     var txtNama by rememberSaveable { mutableStateOf("") }
-    var txtAlamat by remember { mutableStateOf("")}
-    var txtGender by remember { mutableStateOf("")}
-    val listData: MutableList<String> =mutableListOf(txtNama, txtGender, txtAlamat)
-
-
-    Scaffold(modifier = Modifier,
-        {TopAppBar(title = { Text(Text(StringResource(id = "Form Pendaftaran"), color = Color.White,
-            colors = TopAppBarDefaults.mediumTopAppBarColors(colorResource(id = R.color.purple)
-            )
-
-
-}
+    var txtAlamat by remember { mutableStateOf("") }
+    var txtGender by remember { mutableStateOf("") }
+    val listData: MutableList<String> = mutableListOf(txtNama, txtGender, txtAlamat)

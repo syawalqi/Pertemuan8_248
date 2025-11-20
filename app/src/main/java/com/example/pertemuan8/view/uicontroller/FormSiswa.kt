@@ -50,3 +50,10 @@ fun FormSiswa(
                     txtNama = it
                 }
             )
+            HorizontalDivider(
+                modifier = Modifier
+                    .padding(all = 12.dp)
+                    .width(250.dp),
+                thickness = dimensionResource(1.dp),
+                color = Color.Blue
+            )

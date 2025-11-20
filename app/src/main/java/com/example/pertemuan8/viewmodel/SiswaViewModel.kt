@@ -17,8 +17,4 @@ class SiswaViewModel : ViewModel() {
             statusSaatini.copy(nama = ls[0], gender = ls[1], alamat = ls[2])
         }
     }
-
-
-    })
-
 }
